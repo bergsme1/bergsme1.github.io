@@ -1,0 +1,68 @@
+﻿@charset "utf-8";
+
+/*
+ 
+   Filename: style.css
+
+*/
+
+
+/* Structural Styles */
+h1{}
+h2{}
+h3{
+	text-align: center-left;
+	color: green;
+}
+h4{
+	text-align: center-left-side;
+	margin: 0;
+}
+body{
+	margin: 5 auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+	
+}
+body > nav {
+	font-size: 3em;
+	text-align: center;
+	color: green;
+}
+body > nav  a:link, body> nav  a:visited{
+
+	
+	text-decoration: green;
+}
+
+body > nav a:hover, body > nav a:active {
+	color: green;
+
+}
+body > header > img {
+	display: block;
+	margin: auto;
+}
+
+
+body > footer {
+
+}
+
+div.row{
+	clear: both;
+}
+
+div.row::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+div[class^="col-"]{
+	
+	float: left;
+}
+div.col-1-3 {width: 33.3%;}
+
