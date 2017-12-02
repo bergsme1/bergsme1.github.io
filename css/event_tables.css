@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Tutorial Case
+
+   Tables Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         dlr_tables.css
+
+*/
+
+/* Table Styles */
+
+table.schedule{
+	background: white;
+	border: 10px outset green;
+	border-collapse: collapse:
+	font-size: 0.75em;
+	width: 100%;
+}
+
+
+/* Table Cell Styles */
+table.schedule th{
+	color: white;
+}
+table.schedule th, table.schedule td {
+	border: 1px solid gray;
+	padding: 5px;
+	vertical-align: top;
+	
+}
+
+
+/* Table Caption Styles */
+table.schedule caption{
+	caption-side: bottom;
+	text-align: right;
+}
+
+
+/* Row Group Styles */
+
+table.schedule thead {
+	background: green;
+	color: white;
+}
+table.schedule tfoot{
+	background: black;
+	color: white;
+}
+table.schedule thead tr {
+	height: 30px;
+}
+table.schedule tbody tr {
+	height: 40px;
+}
+/* Column Group Styles */
+col#firstCol{
+	background: green;
+	width: 16%;
+}
+col.dayCols{
+	background: white;
+	width: 12%;
+}
+
