@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/*
+ 
+    Makes slideshow look nice
+
+    Taken from w3schools HowTo Slideshow
+
+   Filename: gencon50_style.css
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/*Slideshow container*/
+.slideshow-container {
+    max-width: 1024px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.mySlides {
+    display: none;
+}
+
+/*Next & previous buttons, sets "prev button" on the left", set background color*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,100,0,.4);
+}
+
+/*Position the "next button" on the right"*/
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/*On hover, change darken background*/
+.prev:hover, .next:hover {
+    background-color: rgba(0,100,0,.8);
+}
+
+/*Number text (1/9 etc))*/
+.numbertext {
+    background-color: rgba(0,100,0,.4);
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.numbertext:hover {
+    background-color: rgba(0,100,0,.8);
+}
+
+/*The dots/indicators*/
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background: -webkit-radial-gradient(circle,white,green);
+    background: -o-radial-radial-gradient(circle,white,green);
+    background: -moz-radial-gradient(circle,white,green);
+    background: radial-gradient(circle,white,green);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background 0.6s;
+}
+
+.active, .dot:hover {
+    background: darkgreen;
+}

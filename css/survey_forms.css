@@ -30,9 +30,8 @@ form#cform{
 
 }
 
-form#cform{
+fieldset {
 	background-color: rgb(241,232,181);
-
 	-webkit-flex: 1 1 300px;
 	flex: 1 1 300px;
 	font-size: .9em;
@@ -42,7 +41,7 @@ form#cform{
 
 /* Legend Styles */
 legend{
-	background-color: rgb(179, 20, 25);
+	background-color: darkgreen;
 	color: white;
 	padding: 5px;
 }

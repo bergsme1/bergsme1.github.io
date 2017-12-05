@@ -1,5 +1,8 @@
 @charset "utf-8";
-
+@font-face {
+    font-family: OpenSans;
+    src: url('opensans.ttf') format('truetype')
+}
 /*
  
    Filename: Template_style.css
@@ -12,7 +15,6 @@ html {
    background-image: url("../img/background.png");
    background-repeat: space;
    font-family: Verdana, Geneva, sans-serif;
-   height: 100%;
 }
 
 body {
@@ -93,3 +95,33 @@ body {
     .dropdown:hover .dropdown-content {
       display: block;
     }
+    
+/*Footer Style*/
+
+hr {
+    visibility: hidden;
+    border-color: green;
+}
+
+footer {
+    font-family: OpenSans;
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+    background: darkgreen;
+    background: -webkit-linear-gradient(darkgreen, rgb(0,180,0));
+    background: -o-linear-gradient(darkgreen, rgb(0,180,0));
+    background: -moz-linear-gradient(darkgreen, rgb(0,180,0));
+    background: linear-gradient(darkgreen, rgb(0,180,0));
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+} 
+
+footer a:hover {
+    background: green;
+}

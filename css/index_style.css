@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/*
+ 
+   Filename: index_style.css
+
+*/
+
+.content {
+    /*margin: auto; //this is supposed to center the content but is having no effect...*/
+    margin: 30px 3%;
+}

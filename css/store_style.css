@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*
+ 
+   Filename: store_style.css
+
+*/
+
+/*Body styles */
+
+#description {
+    padding: 2%;
+    float: left;
+}
+
+#map {
+    padding: 2%;
+    float: right;
+}
+
+#store {
+    width:100%;
+}
+
+#store::after {
+    clear:both;
+    content:"";
+    display: table;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    display: list-item;
+    list-style-type: disc;
+}
