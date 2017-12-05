@@ -18,6 +18,7 @@
 	<link href="../css/survey_forms.css" rel="stylesheet" />
 	<script src="../js/survey_script.js"></script>
         <link href="../css/template_style.css" rel="stylesheet" />
+        <link href="../css/survey_style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -55,13 +56,15 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="../html/inis.html">GenCon 50</a>
+            <a href="../html/gencon50.html">GenCon 50</a>
         </div>
     </div> 
     <a href="http://www.thetoyshelfinc.com/about/">About</a>
     <a href="../html/survey.html">Survey</a>
 </div>
-    <section class="col-2-3" id="form">
+    
+    <article>
+    <section class="left" id="form">
 	  
 	  <form id="cform" action="http://mill_computers.com/orders/process.cgi" method="post">
 		<fieldset id="custInfo">
@@ -103,7 +106,7 @@
 			
 			<div class="formRow">
 			<label for ="mail">E-Mail*</label>
-			<input name ="custEmail" id="mail" type="email" placeholder="Email Address"required />
+			<input name ="custEmail" id="mail" type="email" placeholder="Email Address" required />
 			</div>
 			
 
@@ -159,7 +162,7 @@
 				<input name="Visual" id="dExtremely" value="yes" type="radio"/>
 				<label for ="dSomewhat">Somewhat</label>
 				<input name="Visual" id="dSomewhat" value="no" type="radio"/>
-				<label for="dNuetral">Nuetral</label>
+				<label for="dNuetral">Neutral</label>
 				<input name="Visual" id="dNuetral" value="yes" type="radio"/>
 				<label for ="dNot">Not so</label>
 				<input name="Visual" id="dNot" value="no" type="radio"/>
@@ -177,7 +180,7 @@
 				<input name="Friends" id="cFriends" value="no" type="checkbox"/>
 				<label for="cEvents">Events</label>
 				<input name="Events" id="cEvents" value="yes" type="checkbox"/>
-				<label for ="cCoworkers">coworkers</label>
+				<label for ="cCoworkers">Coworkers</label>
 				<input name="Coworkers" id="cCoworkers" value="no" type="checkbox"/>
 			</fieldset>
 		</div>
@@ -217,14 +220,21 @@
      
    </section>
     
-    <section class="col-2-3" id="custReviews">
+    <section class="right" id="custReviews">
         <aside>
+            <h4>A few customer reviews:</h4>
             <blockquote>
-                
+                Friendly staff, they helped me pick out a game in minutes.
+            </blockquote>
+            <blockquote>
+                Huge selection. I did all my holiday shopping here! Games for all ages and tastes.
+            </blockquote>
+            <blockquote>
+                They have so many events that no matter what evening you have free there is something to do here.
             </blockquote>
         </aside>
 </section>
-    
+    </article>
     <footer>
         <hr>
         Contact us: <a href="mailto:bergsme1@ferris.edu">bergsme1@ferris.edu</a>

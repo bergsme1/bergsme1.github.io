@@ -18,8 +18,7 @@
 table.schedule{
 	background: white;
 	border: 10px outset green;
-	border-collapse: collapse:
-	font-size: 0.75em;
+	border-collapse: separate;
 	width: 100%;
 }
 
@@ -33,6 +32,10 @@ table.schedule th, table.schedule td {
 	padding: 5px;
 	vertical-align: top;
 	
+}
+
+table.schedule tbody {
+    border-collapse:collapse;
 }
 
 

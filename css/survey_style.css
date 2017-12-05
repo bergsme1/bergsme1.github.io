@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*
+ 
+   Filename: survey_style.css
+
+*/
+
+/*Structural Elements*/
+section.left {
+    float: left;
+    width: 67%;
+}
+
+section.right {
+    float: left;
+    width: 33%;
+}
+
+/*Aside styles*/
+
+blockquote {
+    font-size: 1.5em;
+    text-align: center;
+    background: rgba(0,100,0,.4);
+    border-radius: 10px;
+    quotes: "\201c" "\201D";
+}
+
+blockquote:before {
+    content: open-quote;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+blockquote:after {
+    content: close-quote;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+/*Clear footer*/
+article:after {
+    clear: both;
+    content: "";
+    display: table;
+}

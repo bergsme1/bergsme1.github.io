@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/*
+ 
+   Filename: review_style.css
+
+*/
+
+/*Figure styles*/
+
+figure {
+    border-style: outset;
+    border-color: green;
+    border-width: 25px;
+    margin: 20px 15px 0px;
+    max-width: 50%;
+    float: right;
+}
+
+figure > img {
+    display: block;
+    max-width: 100%;
+}
+
+figcaption {
+    display: block;
+    text-align: center;
+    background: darkgreen;
+    color: white;
+    font-size: 1.25em;
+    font-style: italic;
+    padding: 5px 0px;
+}
+
+/*Table Styles*/
+
+h1 {
+    display: block;
+    text-align: center;
+    color: darkgreen;
+    font-size: 2em;
+    text-shadow: 2px 2px lightgray;
+}
+
+table {
+    clear: left;
+    float: left;
+    margin: 0px 15px 20px;
+    border: 1px solid black;
+}
+
+colgroup#values {
+    /*text-align: right //this doesn't seem to work'*/
+}
+
+/*Paragraph style*/
+p {
+    clear: left;
+    margin: 10px;
+}
+
+/*Clear the footer*/
+article:after {
+    clear:both;
+    content: "";
+    display: table;
+}
