@@ -1,13 +1,17 @@
 /*
-   New Perspectives on HTML and CSS, 7th Edition
+
+            Brandon Eadie and Eli Bergsma
+            Date: 9/12/17
+            Instructor: John Kinuthia
+            80736.201708(ISYS-288-AGA-Fall 2017)
+        
+            Final Project website for game store.
+
+   From New Perspectives on HTML and CSS, 7th Edition
 
    MC Forms Style Sheet
-      Author: Brandon Eadie
-      Date:   11/15/17
-	  Instructor: John Kinuthia
-	  Class: ISYS 288-AGA-Fall  
 
-   Filename:  mc_forms.css
+   Filename:  survey_forms.css
 
 */
 
@@ -65,6 +69,11 @@ input[type='submit']{
 	padding: 5px;
 	margin: 15px;
 	
+}
+
+.hide {
+    text-align: center;
+    margin: auto;
 }
 
 input[type = 'colorChange']{

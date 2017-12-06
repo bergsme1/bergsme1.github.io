@@ -1,7 +1,12 @@
 "use strict";
 
 /*
-   Author:  Eli Bergsma
+            Brandon Eadie and Eli Bergsma
+            Date: 9/12/17
+            Instructor: John Kinuthia
+            80736.201708(ISYS-288-AGA-Fall 2017)
+        
+            Final Project website for game store.
 
     This will act as an array to allow links to game reviews be 
     generated on each page

@@ -1,6 +1,16 @@
 "use strict";
 
 /*
+<<<<<<< HEAD
+            Brandon Eadie and Eli Bergsma
+            Date: 9/12/17
+            Instructor: John Kinuthia
+            80736.201708(ISYS-288-AGA-Fall 2017)
+        
+            Final Project website for game store.
+
+Holds the arrays of the day numbers and the corresponding events. I couldn't get Tutorial 10 to work, so I wasn't comfortable having the calendar be auto-generated
+=======
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 10
    Case Problem 1
@@ -14,6 +24,7 @@
    The itemDescription array contains the description of each item
    The itemPrice array contains the price of each item
    The itemQty array contains the quantity ordered of each item
+>>>>>>> origin/eliedits
    
 */
 
