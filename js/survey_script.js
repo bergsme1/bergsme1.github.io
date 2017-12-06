@@ -22,6 +22,7 @@
             student does not have to continually retype test values
             in the survey form.
 
+   Additionally: this program contains the function to hide the custReviews element
 
 */
 
@@ -33,15 +34,17 @@ function setForm() {
       return false;
    }
 }
-/*function array*/
-function itemsList(){
-	
-	var item = ["Extremely", "Somewhat", "Nuetral","Not so","Not at All"];
-	var optionsHTML = "<td><select name ='items'>";
-	
-	for (var i = 0; i < item.length; i++){
-		optionsHTML += "<option value = '1' selected>" + item[i] + "</option>"
-	}
-	optionsHTML += "</td>"
-	return optionsHTML;
+        
+
+function hideMe (box) {
+    
+    switch(box.checked) {
+        case true: document.getElementById("form").style.width = '100%';
+                   document.getElementById("custReviews").style.display = 'none';
+                   break;
+        case false: document.getElementById("form").style.width = '67%';
+                    document.getElementById("custReviews").style.display = 'block';
+                    break;
+        default: alert("Quantum state detected");
+    }
 }

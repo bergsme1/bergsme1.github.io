@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/*
+ 
+            Brandon Eadie and Eli Bergsma
+            Date: 9/12/17
+            Instructor: John Kinuthia
+            80736.201708(ISYS-288-AGA-Fall 2017)
+        
+            Final Project website for game store.
+
+   Tooltip adapted from w3schools HowTo Tooltip
+
+   Filename: review_style.css
+
+*/
+
+/*Figure styles*/
+
+figure {
+    border-style: outset;
+    border-color: green;
+    border-width: 25px;
+    border-radius: 10px;
+    margin: 20px 15px 0px;
+    max-width: 50%;
+    float: right;
+}
+
+figure > img {
+    display: block;
+    max-width: 100%;
+}
+
+figcaption {
+    display: block;
+    text-align: center;
+    background: darkgreen;
+    color: white;
+    font-size: 1.25em;
+    font-style: italic;
+    padding: 5px 0px;
+}
+
+/*Table Styles*/
+
+h1 {
+    display: block;
+    text-align: center;
+    color: darkgreen;
+    font-size: 2em;
+    text-shadow: 2px 2px lightgray;
+}
+
+table {
+    background: rgba(0,100,0,.4);
+    clear: left;
+    float: left;
+    margin: 0px 15px 20px;
+    border: 1px solid black;
+}
+
+colgroup#values {
+    /*text-align: right //this doesn't seem to work'*/
+}
+
+/*Create tooltips*/
+    /*container*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+    /*text*/
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: rgba(0,100,0,.9);
+        color: white;
+        text-align: center;
+        padding: 5px 2px;
+        border-radius: 6px;
+        border: 2px solid black;
+        /*position the text*/
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        margin-left: -60px;
+        /*fade*/
+        opacity: 0;
+        transition: opacity .5s;
+    }
+    
+    /*show tooltip*/
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
+
+/*Paragraph style*/
+p {
+    clear: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*Clear the footer*/
+article:after {
+    clear:both;
+    content: "";
+    display: table;
+}

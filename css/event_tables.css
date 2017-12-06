@@ -1,15 +1,20 @@
 @charset "utf-8";
 
 /*
+
+            Brandon Eadie and Eli Bergsma
+            Date: 9/12/17
+            Instructor: John Kinuthia
+            80736.201708(ISYS-288-AGA-Fall 2017)
+        
+            Final Project website for game store.
+
+   From:
    New Perspectives on HTML and CSS
    Tutorial 6
    Tutorial Case
 
-   Tables Style Sheet
-   Author: 
-   Date:   
-
-   Filename:         dlr_tables.css
+   Filename:         event_tables.css
 
 */
 
@@ -18,8 +23,7 @@
 table.schedule{
 	background: white;
 	border: 10px outset green;
-	border-collapse: collapse:
-	font-size: 0.75em;
+	border-collapse: separate;
 	width: 100%;
 }
 
@@ -33,6 +37,10 @@ table.schedule th, table.schedule td {
 	padding: 5px;
 	vertical-align: top;
 	
+}
+
+table.schedule tbody {
+    border-collapse:collapse;
 }
 
 

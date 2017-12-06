@@ -14,9 +14,11 @@
 	<meta charset = "utf-8" />
 	<meta name = "keywords" content = "Toys, board games, game, The toy Shelf">
 	<title>The Toy Shelf</title>
-                
+        <link rel="icon" href="../favicon.ico"/>
         <link href="../css/template_style.css" rel="stylesheet" />
-        <link href="../css/event_tables.css" rel="stylesheet" /> 
+        <link href="../css/event_tables.css" rel="stylesheet" />
+        <script src="../js/calendar.js" defer></script>
+        <script src="../js/events.js" defer></script>
 </head>
 
 <body>
@@ -61,49 +63,11 @@
     <a href="../html/survey.html">Survey</a>
 </div>
 
-	<h3>Events</h3>
-				<table class= "schedule">
-				<caption>All Times Central</caption>
-				<colgroup>
-					<col id = "firstCol" />
-					<col class = "dayCols" span = "7" />
-				</colgroup>
-			<thead>
-				<tr>
-					<th>Time</th>
-					<th>Mon</th>
-					<th>Tue</th>
-					<th>Wed</th>
-					<th>Thu</th>
-					<th>Fri</th>
-					<th>Sat</th>
-					<th>Sun</th>
-				</tr>
-			</thead>
+	<h3>December 2017 Events</h3>
+        
+        <!--The event table/calendar is generated using JavaScript-->
+        <div id="schedule"></div>
 				
-			<tbody>
-				<tr>
-					<th>6:00 PM</th>
-						<td rowspan = "4" colspan = "4">Board Game Nights</td>
-						<td rowspan = "4" colspan = "3">Random Tournaments</td>
-				</tr>
-				<tr>
-					<th >6:30 PM</th>
-						
-				
-				</tr>
-
-				<tr>
-					<th>7:30 PM</th>
-				</tr>
-				<tr>
-					<th>8:00 PM</th>
-
-				</tr>
-
-			</tbody>
-			</table>
-
         <footer>
         <hr>
         Contact us: <a href="mailto:bergsme1@ferris.edu">bergsme1@ferris.edu</a>
