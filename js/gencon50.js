@@ -3,13 +3,18 @@
 /*
    Javascript to generate a slideshow
 
+<<<<<<< HEAD
     Adapted from w3schools HowTo Slideshow
+=======
+    Bones of the code taken from w3schools HowTo Slideshow
+>>>>>>> origin/eliedits
 
    Filename: gencon50.js
 	
 */
 
 /*Grab all the images*/
+<<<<<<< HEAD
 var images = ["image1.jpg","image2.jpg","image3.jpg","image4.jpg","image5.jpg","image6.jpg","image7.jpg","image8.jpg","image9.jpg"];
 /*Create captions for the images*/
 var caption = ["This special anniversary of GenCon completely sold out of badges. Waiting for the main exhibit halls to open the convention center was absolutely packed."
@@ -25,11 +30,19 @@ var caption = ["This special anniversary of GenCon completely sold out of badges
 var slideshowHTML = "<div class = 'slideshow-container'>";
 
 /*Create the slides*/
+=======
+
+var images = ["image1.jpg","image2.jpg","image3.jpg","image4.jpg","image5.jpg","image6.jpg","image7.jpg","image8.jpg","image9.jpg"];
+
+var slideshowHTML = "<div class = 'slideshow-container'>";
+        
+>>>>>>> origin/eliedits
 for (var i = 0; i < images.length; i++)
 {
     var j = i + 1;
     slideshowHTML += "<div class='mySlides'>";
     slideshowHTML += "<div class='numbertext'>" + j + "/" + images.length + "</div>";
+<<<<<<< HEAD
     slideshowHTML += "<image src='../img/gencon50/" + images[i] + "' style='width:100%;'>";
     slideshowHTML += "</div>";
 }
@@ -39,24 +52,38 @@ slideshowHTML += "<a class='prev' onclick='plusSlides(-1)'>&#10094;</a>";
 /*Create Next button*/
 slideshowHTML += "<a class='next' onclick='plusSlides(1)'>&#10095;</a>";
 
+=======
+    slideshowHTML += "<image src='../img/gencon50/" + images[i] + "' style='width:100%'>";
+    slideshowHTML += "</div>";
+}
+
+slideshowHTML += "<a class='prev' onclick='plusSlides(-1)'>&#10094;</a>";
+slideshowHTML += "<a class='next' onclick='plusSlides(1)'>&#10095;</a>";
+>>>>>>> origin/eliedits
 slideshowHTML += "</div>";
 slideshowHTML += "<br>";
 
 slideshowHTML += "<div style='text-align:center'>";
+<<<<<<< HEAD
 
 /*Create dots to navigate slideshow*/
+=======
+>>>>>>> origin/eliedits
 for (var i = 0; i < images.length; i++)
 {
     var j = i +1;
     slideshowHTML += "<span class='dot' onclick='currentSlide(" + j + ")'></span>";
 }
 
+<<<<<<< HEAD
 /*Create captions for images*/
 for (var i = 0; i < images.length; i++)
 {
     slideshowHTML += "<div class='text'>" + caption[i] + "</div>";
 }
 
+=======
+>>>>>>> origin/eliedits
 slideshowHTML += "</div>";
 
 document.getElementById("slideshow").innerHTML = slideshowHTML;
@@ -78,17 +105,26 @@ function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
+<<<<<<< HEAD
     var captions = document.getElementsByClassName("text");
+=======
+>>>>>>> origin/eliedits
     if (n > slides.length) {slideIndex = 1;}
     if (n < 1) {slideIndex = slides.length;}
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
+<<<<<<< HEAD
         captions[i].style.display = "none";
+=======
+>>>>>>> origin/eliedits
     }
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex-1].style.display = "block";
+<<<<<<< HEAD
     captions[slideIndex-1].style.display = "block";
+=======
+>>>>>>> origin/eliedits
     dots[slideIndex-1].className += " active";
 }

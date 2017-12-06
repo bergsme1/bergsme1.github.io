@@ -2,6 +2,7 @@
 
 /*
  
+<<<<<<< HEAD
             Brandon Eadie and Eli Bergsma
             Date: 9/12/17
             Instructor: John Kinuthia
@@ -11,6 +12,8 @@
 
    Tooltip adapted from w3schools HowTo Tooltip
 
+=======
+>>>>>>> origin/eliedits
    Filename: review_style.css
 
 */
@@ -21,7 +24,10 @@ figure {
     border-style: outset;
     border-color: green;
     border-width: 25px;
+<<<<<<< HEAD
     border-radius: 10px;
+=======
+>>>>>>> origin/eliedits
     margin: 20px 15px 0px;
     max-width: 50%;
     float: right;
@@ -53,7 +59,10 @@ h1 {
 }
 
 table {
+<<<<<<< HEAD
     background: rgba(0,100,0,.4);
+=======
+>>>>>>> origin/eliedits
     clear: left;
     float: left;
     margin: 0px 15px 20px;
@@ -64,6 +73,7 @@ colgroup#values {
     /*text-align: right //this doesn't seem to work'*/
 }
 
+<<<<<<< HEAD
 /*Create tooltips*/
     /*container*/
 .tooltip {
@@ -98,11 +108,16 @@ colgroup#values {
         opacity: 1;
     }
 
+=======
+>>>>>>> origin/eliedits
 /*Paragraph style*/
 p {
     clear: left;
     margin: 10px;
+<<<<<<< HEAD
     padding: 10px;
+=======
+>>>>>>> origin/eliedits
 }
 
 /*Clear the footer*/

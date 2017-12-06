@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 /*
+<<<<<<< HEAD
              Brandon Eadie and Eli Bergsma
             Date: 9/12/17
             Instructor: John Kinuthia
@@ -11,6 +12,12 @@
     Makes slideshow look nice
 
     Adapted from w3schools HowTo Slideshow
+=======
+ 
+    Makes slideshow look nice
+
+    Taken from w3schools HowTo Slideshow
+>>>>>>> origin/eliedits
 
    Filename: gencon50_style.css
 
@@ -66,8 +73,12 @@
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
+<<<<<<< HEAD
     top: 5px;
     left: 5px;
+=======
+    top: 0;
+>>>>>>> origin/eliedits
 }
 
 .numbertext:hover {
@@ -91,6 +102,7 @@
 
 .active, .dot:hover {
     background: darkgreen;
+<<<<<<< HEAD
 }
 
 /*Captions*/
@@ -102,4 +114,6 @@ div.text {
     border-radius: 10px;
     background: rgba(0,100,0,.8);
     color: white;
+=======
+>>>>>>> origin/eliedits
 }

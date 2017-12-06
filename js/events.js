@@ -1,6 +1,7 @@
 "use strict";
 
 /*
+<<<<<<< HEAD
             Brandon Eadie and Eli Bergsma
             Date: 9/12/17
             Instructor: John Kinuthia
@@ -9,6 +10,13 @@
             Final Project website for game store.
 
 This styles the events table so that the days are accurate to their numbers.
+=======
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 10
+   Case Problem 1
+   
+   Filename: tc_cart.js
+>>>>>>> origin/eliedits
 	
 */
 
