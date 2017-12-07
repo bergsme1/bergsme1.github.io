@@ -30,6 +30,8 @@ figure {
 figure > img {
     display: block;
     max-width: 100%;
+    -webkit-filter: contrast(120%);
+    filter: contrast(120%);
 }
 
 figcaption {
